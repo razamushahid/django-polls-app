@@ -28,3 +28,8 @@ class Choice(models.Model):
         return self.choice_text
 
 
+class Answer(models.Model):
+    answer = models.CharField(max_length=500)
+
+
+
